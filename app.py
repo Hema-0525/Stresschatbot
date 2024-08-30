@@ -10,7 +10,7 @@ api_key = os.getenv("NVIDIA_API_KEY")
 
 # Streamlit UI setup
 st.set_page_config(page_title="Conversational Q&A Chatbot")
-st.header("Hey, Let's Chat")
+st.header("Welcome! Let's Talk About Managing Stress")
 
 # Initialize the OpenAI client
 client = OpenAI(
